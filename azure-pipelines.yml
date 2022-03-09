@@ -15,9 +15,9 @@ strategy:
       jdkVersion: "1.10"
 
 steps:
-- script: 
+- script: |
       javac helloJenkins.java
-      java helloJenkins
+      java A
   displayName: 'Run java code'
 
 
