@@ -17,7 +17,7 @@ strategy:
 steps:
 - script: 
       javac helloJenkins.java
-      java A
+      java helloJenkins
   displayName: 'Run java code'
 
 
