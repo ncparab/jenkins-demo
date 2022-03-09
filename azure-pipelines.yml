@@ -13,15 +13,11 @@ strategy:
     jdk10_linux:
       imageName: "ubuntu-latest"
       jdkVersion: "1.10"
-    jdk11_windows:
-      imageName: "windows-latest"
-      jdkVersion: "1.11"
-  maxParallel: 2
 
 steps:
-- script: |
-        javac helloJenkins.java
-        java A
+- script: 
+      javac helloJenkins.java
+      java A
   displayName: 'Run java code'
 
 
